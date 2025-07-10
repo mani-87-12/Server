@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 
-const JWT_SECRET = 'bc9edb064e9c0d9d364bb4511b551954a179b50421bff6990424f3c68d1531cf5dfdefbd00bd9dfa8112557bf202df14ff789ed4fa1fd9a57b5b58bb960edeca';
+const JWT_SECRET = '';
 
 function generateJWT(user) {
     // Log the user object to ensure uid is present
