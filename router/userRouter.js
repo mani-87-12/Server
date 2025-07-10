@@ -17,7 +17,7 @@ const server = new ApolloServer({ typeDefs, resolvers });
 router.use(cookieParser());
 
 // MongoDB connection URI (make sure this matches your MongoDB connection)
-const mongoURI = 'mongodb+srv://gopalreddytheluckier:zS0pf0c0UJGVF77W@cluster0.mazavb5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const mongoURI = '';
 
 // Multer setup for temporary uploads
 const upload = multer({ dest: 'uploads/' }); // Temporary storage before Cloudinary
