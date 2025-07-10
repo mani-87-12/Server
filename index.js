@@ -12,7 +12,7 @@ const resolvers = require('./resolvers')
 
 const app = express()
 const port = 3002
-const url ='mongodb+srv://gopalreddytheluckier:zS0pf0c0UJGVF77W@cluster0.mazavb5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const url ='place-mongodb-uri'
 
 app.use(cookieParser())
 app.use(express.json())
